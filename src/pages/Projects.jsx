@@ -1,9 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 
-// import { Link } from "react-router-dom";
-
-const Home = () => {
+const Projects = () => {
   return (
     <div
       className="d-flex col-md-4 col-sm-6"
@@ -27,14 +25,14 @@ const Home = () => {
         className="d-flex flex-wrap justify-content-center align-items-center"
         style={{ height: "80vh", width: "100%" }}
       >
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
+        <div>Projects</div>
+        <div>Projects</div>
+        <div>Projects</div>
+        <div>Projects</div>
+        <div>Projects</div>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default Projects;

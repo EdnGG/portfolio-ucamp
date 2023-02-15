@@ -34,11 +34,7 @@ function Header() {
                 className="mx-3 text-black"
               />
             </Link>
-            <Link
-              className="nav-link p-3"
-              to="/"
-              onClick={console.log("logout")}
-            >
+            <Link className="nav-link p-3" to="/">
               Logout
             </Link>
           </Nav>
