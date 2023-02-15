@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div
       className="card py-4 px-4 my-4 mx-4 justify-content-center align-items-center d-flex col-md-4 col-sm-6"
@@ -16,10 +16,10 @@ const Card = () => {
         height={125}
       />
       <div className="card-body">
-        <h5 className="card-title">Title</h5>
+        <h5 className="card-title">{props.title}</h5>
         <div className="d-grid gap-2">
           <a
-            href="https://www.example.com/live-demo"
+            href={props.demo}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -27,7 +27,7 @@ const Card = () => {
             Live Demo
           </a>
           <a
-            href="https://www.example.com/repository"
+            href={props.repository}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary"
