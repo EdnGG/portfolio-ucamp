@@ -1,55 +1,30 @@
 import React, { useState, useEffect } from "react";
+import {
+  // RiMenuLine,
+  RiHome2Fill,
+  // RiProjectorFill,
+  Ri24HoursFill,
+  RiMore2Fill,
+} from "react-icons/ri";
 import { Link } from "react-router-dom";
+// import Backdrop from "../components/Backdrop";
 
-const Sidebar = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 600 && isNavOpen) {
-        setIsNavOpen(false);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [isNavOpen]);
+const Sidebar = ({ sidebar }) => {
   return (
-    <>
-      <button
-        className="sidebar-toggle"
-        onClick={() => setIsNavOpen(!isNavOpen)}
-      >
-        <span class="material-symbols-outlined">
-          {isNavOpen ? "toggle_on" : "toggle_off"}
-        </span>
-      </button>
-      <nav
-        className={`nav ${
-          isNavOpen ? "nav-open d-flex flex-wrap flex-column" : "nav-closed"
-        }`}
-      >
-        <div classname="logo">
-          <img className="img" src="https://picsum.photos/200/200" alt="logo" />
-        </div>
-        <ul>
-          <li>
-            <Link className="links" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/projects">
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/about">
-              About
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
+      <Link className="nav-link sidebar-li" to="/">
+        <RiHome2Fill />
+        Home
+      </Link>
+      <Link className="nav-link sidebar-li" to="/projects">
+        <Ri24HoursFill />
+        Projects
+      </Link>
+      <Link className="nav-link sidebar-li" to="/about">
+        <RiMore2Fill />
+        About
+      </Link>
+    </div>
   );
 };
 

@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="d-flex flex-column bg-black py-2 my-2 justify-content-center align-items-center"
+      className="d-flex flex-column bg-black py-4 my-4 justify-content-center align-items-center"
       style={{ height: "40vh", width: "100%" }}
     >
       <div
