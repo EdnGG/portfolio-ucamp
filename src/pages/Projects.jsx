@@ -21,6 +21,12 @@ const Projects = () => {
           repository="https://github.com/EdnGG/Ucamp-project-04"
         />
         <Card
+          title="Project-05"
+          demo="https://frontend-restapi-ucamp.up.railway.app/login"
+          repository="https://github.com/EdnGG/frontend-restAPI-ucamp"
+          repositoryFront="https://github.com/EdnGG/frontend-vue-todo"
+        />
+        <Card
           title="Dashboard Ucamp"
           demo="https://edngg.github.io/dashboard-ucamp/?classId=39b87aea-01cf-49fd-ba3b-1a6573bc794e&assignmentId=1a36a8eb-1947-48b9-b1e4-53b20d1d0bf3&submissionId=6f143b06-a6b3-9a86-a508-a9ef0f539b38"
           repository="https://github.com/EdnGG/dashboard-ucamp"
