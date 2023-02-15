@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import Card from "../components/core/Card";
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
         width: "100vw",
       }}
     >
-      <div
+      {/* <div
         className="d-flex flex-column col-md-4 col-sm-6"
         style={{
           height: "80vh",
@@ -20,16 +21,16 @@ const Projects = () => {
         }}
       >
         <Sidebar />
-      </div>
+      </div> */}
       <div
         className="d-flex flex-wrap justify-content-center align-items-center"
         style={{ height: "80vh", width: "100%" }}
       >
-        <div>Projects</div>
-        <div>Projects</div>
-        <div>Projects</div>
-        <div>Projects</div>
-        <div>Projects</div>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );

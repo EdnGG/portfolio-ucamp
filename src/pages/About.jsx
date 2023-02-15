@@ -11,7 +11,7 @@ const About = () => {
         width: "100vw",
       }}
     >
-      <div
+      {/* <div
         className="d-flex flex-column col-md-4 col-sm-6"
         style={{
           height: "80vh",
@@ -20,7 +20,7 @@ const About = () => {
         }}
       >
         <Sidebar />
-      </div>
+      </div> */}
       <div
         className="d-flex flex-wrap justify-content-center align-items-center"
         style={{ height: "80vh", width: "100%" }}

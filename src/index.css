@@ -10,6 +10,16 @@ body {
   background-color: hsl(210, 36%, 96%);
 }
 
+.tool-bar {
+  background-color: #222f3e;
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
 .sidebar-toggle {
   position: fixed;
   top: 2rem;
