@@ -19,18 +19,6 @@ const Footer = () => {
       <div
       // style={{ height: "20vh", width: "100%" }}
       >
-        {/* <div className="d-flex justify-content-center align-items-center py-1 my-1">
-          <h2 className="fs-1 fw-bold font-monospace text-white py-1 my-1">
-            Social Network!!{"  "}
-            <span>
-              <FontAwesomeIcon
-                icon={faBriefcase}
-                size="1x"
-                className="mx-3 text-white"
-              />
-            </span>
-          </h2>
-        </div> */}
         <div className="d-flex justify-content-center align-items-center">
           <a href="https://www.facebook.com/liledn.mexikn/" target="_blank">
             <FontAwesomeIcon

@@ -6,7 +6,7 @@ const Projects = () => {
     <div
       className="d-flex col-md-4 col-sm-6"
       style={{
-        backgroundColor: "lightgrey",
+        backgroundColor: "white",
         height: "100vh",
         width: "100vw",
       }}

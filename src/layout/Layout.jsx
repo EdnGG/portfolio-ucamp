@@ -15,9 +15,9 @@ const Layout = () => {
       <div
         className="d-flex flex-wrap justify-content-center align-items-center"
         style={{
-          // backgroundColor: "green",
           height: "100vh",
           width: "100vw",
+          backgroundColor: "white",
         }}
       >
         <Outlet />

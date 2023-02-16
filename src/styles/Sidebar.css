@@ -1,0 +1,6 @@
+.profile-image {
+  width: 150px; /* Cambia el tamaño de la imagen */
+  height: 150px;
+  border: 2px solid black; /* Agrega un borde */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+}
