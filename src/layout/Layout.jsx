@@ -12,18 +12,21 @@ const Layout = () => {
       }}
     >
       <Header />
-      <div
-        className="d-flex flex-wrap justify-content-center align-items-center"
-        style={{
-          height: "100vh",
-          width: "100vw",
-          backgroundColor: "white",
-        }}
-      >
-        <Outlet />
-      </div>
-      <div className="pt-5 mt-5">
-        <Footer />
+      <div styles={{ minHeight: "100vh", width: "100vw" }}>
+        <div
+          className="d-flex flex-column justify-content-center align-items-center flex-grow-1 mb-5"
+          // style={{
+          // flexGrow: 1,
+          // height: "100vh",
+          // width: "100vw",
+          // backgroundColor: "white",
+          // }}
+        >
+          <Outlet />
+        </div>
+        <div className="pt-5 mt-5">
+          <Footer />
+        </div>
       </div>
     </div>
   );

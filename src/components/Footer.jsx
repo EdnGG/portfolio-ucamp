@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="d-flex flex-column bg-black py-4 my-4 justify-content-center align-items-center"
+      className="mt-auto d-flex flex-column bg-black py-4 my-4 justify-content-center align-items-center"
       style={{ height: "40vh", width: "100%" }}
     >
       <div
