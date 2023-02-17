@@ -8,7 +8,7 @@ const Sidebar = ({ sidebar }) => {
     <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
       <div className="py-3  my-3">
         <img
-          src="https://picsum.photos/300/300"
+          src="./assets/profile.jpg"
           alt="profile"
           className="rounded-circle profile-image mx-auto d-block"
         />

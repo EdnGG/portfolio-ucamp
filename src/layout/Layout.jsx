@@ -24,7 +24,7 @@ const Layout = () => {
         >
           <Outlet />
         </div>
-        <div className="pt-5 mt-5">
+        <div className="">
           <Footer />
         </div>
       </div>

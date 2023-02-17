@@ -19,6 +19,7 @@ const Footer = () => {
       <div
       // style={{ height: "20vh", width: "100%" }}
       >
+        <h2 className="text-white text-center pb-3">Let's get in touch</h2>
         <div className="d-flex justify-content-center align-items-center">
           <a href="https://www.facebook.com/liledn.mexikn/" target="_blank">
             <FontAwesomeIcon
@@ -58,9 +59,7 @@ const Footer = () => {
             <Link
               href="/"
               className=" nav-link text-gray-500 hover:text-gray-900"
-            >
-              Project 05 Ucamp. All rights reserved.
-            </Link>
+            ></Link>
           </p>
         </div>
       </div>
