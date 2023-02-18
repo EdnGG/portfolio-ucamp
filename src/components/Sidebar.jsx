@@ -10,7 +10,7 @@ const Sidebar = ({ sidebar }) => {
         <img
           src="./assets/profile.jpg"
           alt="profile"
-          className="rounded-circle profile-image mx-auto d-block"
+          className="rounded img-thumbnail profile-image mx-auto d-block"
         />
       </div>
       <Link className="nav-link sidebar-li" to="/">

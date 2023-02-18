@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -14,7 +14,7 @@ const Layout = () => {
       <Header />
       <div styles={{ minHeight: "100vh", width: "100vw" }}>
         <div
-          className="d-flex flex-column justify-content-center align-items-center flex-grow-1 mb-5"
+          className="d-flex flex-column justify-content-center align-items-center flex-grow-1 my-5 py-5"
           // style={{
           // flexGrow: 1,
           // height: "100vh",
@@ -24,7 +24,7 @@ const Layout = () => {
         >
           <Outlet />
         </div>
-        <div className="">
+        <div>
           <Footer />
         </div>
       </div>
