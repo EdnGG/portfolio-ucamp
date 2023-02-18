@@ -7,7 +7,7 @@ const Card = (props) => {
       style={{
         width: "15rem",
         height: "auto",
-        backgroundColor: "#f0ad4e",
+        backgroundColor: "#99CCFF",
       }}
     >
       <img
@@ -24,7 +24,6 @@ const Card = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             className="btn bg-success text-white"
-            // styles={{ backgroundColor: "#f0ad4e", color: "#fff" }}
           >
             Live Demo
           </a>
@@ -36,6 +35,17 @@ const Card = (props) => {
           >
             Repository
           </a>
+
+          {props.repositoryFront ? (
+            <a
+              href={props.repositoryFront}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-light text-dark"
+            >
+              Repository Backend
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

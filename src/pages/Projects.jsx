@@ -4,20 +4,67 @@ import Card from "../components/core/Card";
 
 const Projects = () => {
   return (
+    // <div
+    //   className="container d-flex flex-wrap justify-content-center align-items-center"
+    //   style={{ marginLeft: 500 }}
+    // >
+    //   <div className="row  ">
+    //     <div className="col-lg-4 col-md-4 col-sm-6">
+    //       <Card
+    //         title="Restaurant app (React + Firebase)"
+    //         demo="https://project-04-ucamp.netlify.app/"
+    //         repository="https://github.com/EdnGG/Ucamp-project-04"
+    //       />
+    //     </div>
+    //     <div className="col-lg-4 col-md-4 col-sm-6">
+    //       <Card
+    //         title="MERN Stack E-commerce"
+    //         demo="https://frontend-restapi-ucamp.up.railway.app/login"
+    //         repository="https://github.com/EdnGG/frontend-restAPI-ucamp"
+    //         repositoryFront="https://github.com/EdnGG/frontend-vue-todo"
+    //       />
+    //     </div>
+    //     <div className="col-lg-4 col-md-4 col-sm-6">
+    //       <Card
+    //         title="Dashboard Ucamp (React + Firebase)"
+    //         demo="https://edngg.github.io/dashboard-ucamp/?classId=39b87aea-01cf-49fd-ba3b-1a6573bc794e&assignmentId=1a36a8eb-1947-48b9-b1e4-53b20d1d0bf3&submissionId=6f143b06-a6b3-9a86-a508-a9ef0f539b38"
+    //         repository="https://github.com/EdnGG/dashboard-ucamp"
+    //       />
+    //     </div>
+    //   </div>
+    //   <div className="row">
+    //     <div className="col-lg-4 col-md-4 col-sm-6">
+    //       <Card
+    //         title="Portfolio Node + Express.js + EJS"
+    //         demo="https://node-portfolio.onrender.com/"
+    //         repository="https://github.com/EdnGG/node-portfolio"
+    //       />
+    //     </div>
+    //     <div className="col-lg-4 col-md-4 col-sm-6">
+    //       <Card
+    //         title="MEVN Stack - Todo App"
+    //         demo="https://todo-vuetify-front.onrender.com/"
+    //         repository="https://github.com/EdnGG/vue-vuetify-mevn/tree/railway"
+    //         repositoryFront="https://github.com/EdnGG/frontend-vue-todo"
+    //       />
+    //     </div>
+    //   </div>
+    // </div>
+
     <div
       className="container d-flex flex-wrap justify-content-center align-items-center"
       styles={{ marginLeft: 400 }}
     >
-      <div className="col-md-4 col-sm-6 px-2 mx-2 py-2 my-2">
+      <div className="col-md-4 col-sm-6">
         <Card
-          title="Project-04"
+          title="Restaurant app (React + Firebase)"
           demo="https://project-04-ucamp.netlify.app/"
           repository="https://github.com/EdnGG/Ucamp-project-04"
         />
       </div>
       <div className="col-md-4 col-sm-6">
         <Card
-          title="Project-05"
+          title="MERN Stack E-commerce"
           demo="https://frontend-restapi-ucamp.up.railway.app/login"
           repository="https://github.com/EdnGG/frontend-restAPI-ucamp"
           repositoryFront="https://github.com/EdnGG/frontend-vue-todo"
@@ -25,21 +72,21 @@ const Projects = () => {
       </div>
       <div className="col-md-4 col-sm-6">
         <Card
-          title="Dashboard Ucamp"
+          title="Dashboard Ucamp (React + Firebase)"
           demo="https://edngg.github.io/dashboard-ucamp/?classId=39b87aea-01cf-49fd-ba3b-1a6573bc794e&assignmentId=1a36a8eb-1947-48b9-b1e4-53b20d1d0bf3&submissionId=6f143b06-a6b3-9a86-a508-a9ef0f539b38"
           repository="https://github.com/EdnGG/dashboard-ucamp"
         />
       </div>
       <div className="col-md-4 col-sm-6">
         <Card
-          title="Old POrtfolio Node"
+          title="Portfolio Node + Express.js + EJS"
           demo="https://node-portfolio.onrender.com/"
           repository="https://github.com/EdnGG/node-portfolio"
         />
       </div>
       <div className="col-md-4 col-sm-6">
         <Card
-          title="MEVN Stack"
+          title="MEVN Stack - Todo App"
           demo="https://todo-vuetify-front.onrender.com/"
           repository="https://github.com/EdnGG/vue-vuetify-mevn/tree/railway"
           repositoryFront="https://github.com/EdnGG/frontend-vue-todo"
