@@ -3,9 +3,15 @@ import "../styles/About.css";
 
 const About = () => {
   return (
-    <div className="contenedor row" style={{ width: "100vw" }}>
+    <div
+      className="contenedor row"
+      style={{
+        width: "100vw",
+        justifyContent: "center",
+      }}
+    >
       <div
-        style={{ paddingLeft: "17rem", paddingRight: "2rem" }}
+        // style={{ paddingLeft: "17rem", paddingRight: "2rem" }}
         className="secondary-div col-md-8 col-sm-12 col-lg-6 d-flex flex-wrap justify-content-center align-items-center"
       >
         <div className="text-center">
@@ -17,7 +23,7 @@ const About = () => {
               color: "white",
             }}
           >
-            My name is Eden Gomez
+            Hi! I'm Eden Gomez and I'm a Fullstack Javascript Developer.
           </h1>
           <p
             style={{
@@ -27,8 +33,8 @@ const About = () => {
               color: "white",
             }}
           >
-            Soy un apasionado de [tu área de interés] y me encanta [tu
-            pasatiempo o actividad favorita relacionada con tu área de interés].
+            I am passionate about technology and I love programming and creating
+            amazing products with software.
           </p>
           <p
             style={{
@@ -38,8 +44,8 @@ const About = () => {
               color: "white",
             }}
           >
-            En mi tiempo libre, también disfruto [tu otro pasatiempo o actividad
-            favorita relacionada con tu área de interés].
+            In my spare time, I also enjoy spending time with my family and
+            friends.
           </p>
           <p
             style={{
@@ -49,8 +55,41 @@ const About = () => {
               color: "white",
             }}
           >
-            Me gradué de [tu universidad o escuela] con una licenciatura en [tu
-            campo de estudio].
+            I have studied on platforms such as
+            <a
+              style={{
+                fontSize: "2rem",
+              }}
+              href="https://teamtreehouse.com/edengomez"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Teamtreehouse
+            </a>
+            ,{" "}
+            <a
+              style={{
+                fontSize: "2rem",
+              }}
+              href="https://platzi.com/@EdenGg/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Platzi{" "}
+            </a>
+            and{" "}
+            <a
+              style={{
+                fontSize: "2rem",
+                // fontWeight: ,
+              }}
+              href="https://ucamp.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ucamp{" "}
+            </a>
+            as a Javascript Developer
           </p>
           <p
             style={{
@@ -60,8 +99,8 @@ const About = () => {
               color: "white",
             }}
           >
-            Actualmente trabajo como [tu trabajo o profesión] y me gusta [lo que
-            te gusta de tu trabajo o profesión].
+            I currently work as a Technician at Valve Solutions Inc and I like
+            to develop freelance projects for them.
           </p>
           <p
             style={{
@@ -71,12 +110,13 @@ const About = () => {
               color: "white",
             }}
           >
-            ¡Gracias por visitar mi página de "Acerca de"!
+            Thanks for Visiting my Page!
           </p>
         </div>
       </div>
       <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
         <aside
+          className="d-flex flex-wrap justify-content-center align-items-center"
           style={{
             fontSize: "1.5rem",
             fontFamily: "CourierNew, monospace",
@@ -91,7 +131,7 @@ const About = () => {
               marginBottom: "1rem",
             }}
           >
-            Habilidades (Skills)
+            SKILLS
           </h2>
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
             <li>Vue.js</li>

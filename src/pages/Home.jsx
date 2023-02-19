@@ -5,18 +5,18 @@ import MyCarousel from "../components/core/MyCarousel";
 const Home = () => {
   return (
     <div
-      className="d-flex col-md-4 col-sm-6"
+      className="home-main row"
       style={{
-        height: "100vh",
         width: "100vw",
+        justifyContent: "center",
       }}
     >
       <div
-        className="d-flex flex-wrap col-md-4 col-sm-6"
-        style={{ height: "100vh", width: "100%" }}
+        className="contenedor col-md-8 col-sm-12 d-flex flex-wrap col-lg-6 justify-content-center align-items-center"
+        style={{ width: "100%" }}
       >
         <h1
-          className="fw-bolder pt-4 mt-4 px-5 mx-5 justify-content-start"
+          className="text-home fw-bolder pt-4 mt-4 px-5 mx-5 justify-content-start"
           style={{
             fontFamily: "Arial",
             color: "white",
@@ -28,7 +28,7 @@ const Home = () => {
         </h1>
         <div className="px-3 py-3 mx-3 my-3 text-center justify-content-center align-items-center">
           <h3
-            className="fw-bolder px-4 py-4 mx-3 my-3 text-white"
+            className="text-home fw-bolder px-4 py-4 mx-3 my-3 text-white"
             style={{
               fontFamily: "CourierNew, monospace",
               fontSize: "3rem",
@@ -51,9 +51,7 @@ const Home = () => {
               maxHeight: "35vh",
               maxWidth: "100vw",
               overflow: "auto",
-              // left: "50%",
             }}
-            // hidden
           >
             <MyCarousel />
           </div>
