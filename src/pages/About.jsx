@@ -1,9 +1,13 @@
 import React from "react";
+import "../styles/About.css";
 
 const About = () => {
   return (
-    <div className="row" style={{ height: "100vh", width: "100vw" }}>
-      <div className="col-md-8 col-sm-12 d-flex flex-wrap justify-content-center align-items-center">
+    <div className="contenedor row" style={{ width: "100vw" }}>
+      <div
+        style={{ paddingLeft: "17rem", paddingRight: "2rem" }}
+        className="secondary-div col-md-8 col-sm-12 col-lg-6 d-flex flex-wrap justify-content-center align-items-center"
+      >
         <div className="text-center">
           <h1
             style={{
@@ -90,11 +94,13 @@ const About = () => {
             Habilidades (Skills)
           </h2>
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-            <li>Habilidad 1</li>
-            <li>Habilidad 2</li>
-            <li>Habilidad 3</li>
-            <li>Habilidad 4</li>
-            <li>Habilidad 5</li>
+            <li>Vue.js</li>
+            <li>React.js</li>
+            <li>Vuetify</li>
+            <li>Bootstrap</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Firebase</li>
           </ul>
         </aside>
       </div>

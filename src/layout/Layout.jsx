@@ -15,12 +15,11 @@ const Layout = () => {
       <div styles={{ minHeight: "100vh", width: "100vw" }}>
         <div
           className="d-flex flex-column justify-content-center align-items-center flex-grow-1 my-5 py-5"
-          // style={{
-          // flexGrow: 1,
-          // height: "100vh",
-          // width: "100vw",
-          // backgroundColor: "white",
-          // }}
+          style={
+            {
+              // width: "100vw",
+            }
+          }
         >
           <Outlet />
         </div>
