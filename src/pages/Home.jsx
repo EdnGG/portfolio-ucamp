@@ -12,11 +12,11 @@ const Home = () => {
       }}
     >
       <div
-        className="contenedor col-md-8 col-sm-12 d-flex flex-wrap col-lg-6 justify-content-center align-items-center"
+        className="contenedor col-lg-6 col-md-8 col-sm-12 d-flex flex-wrap justify-content-center align-items-center"
         style={{ width: "100%" }}
       >
         <h1
-          className="text-home fw-bolder pt-4 mt-4 px-5 mx-5 justify-content-start"
+          className="text-home fw-bolder pt-4 mt-4 px-3 mx-3 justify-content-start"
           style={{
             fontFamily: "Arial",
             color: "white",
@@ -26,7 +26,15 @@ const Home = () => {
         >
           Hey Everyone!
         </h1>
-        <div className="px-3 py-3 mx-3 my-3 text-center justify-content-center align-items-center">
+        <div
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.4)",
+            borderRadius: "10px",
+            width: "auto",
+            height: "auto",
+          }}
+          className="px-3 py-3 mx-3 my-3 text-center justify-content-center align-items-center"
+        >
           <h3
             className="text-home fw-bolder px-4 py-4 mx-3 my-3 text-white"
             style={{

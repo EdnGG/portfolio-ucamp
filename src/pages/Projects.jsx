@@ -53,7 +53,10 @@ const Projects = () => {
 
     <div
       className="container d-flex flex-wrap justify-content-center align-items-center"
-      styles={{ marginLeft: 400 }}
+      styles={{
+        marginLeft: 400,
+        backgroundColor: "rgba(0, 0, 0, 0.4)",
+      }}
     >
       <div className="col-md-4 col-sm-6">
         <Card
