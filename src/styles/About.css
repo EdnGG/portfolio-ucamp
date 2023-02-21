@@ -12,7 +12,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   aside {
     display: flex;
     flex-direction: column;
@@ -22,17 +22,34 @@ a:hover {
   }
 
   .contenedor {
-    width: 0%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: -20; */
+    width: 40%;
   }
 
   .secondary-div {
-    padding-left: 2rem;
+    margin-top: 2rem;
+    /* padding-left: 2rem;
     padding-right: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  aside ul {
+    padding-left: 1rem;
+  }
+  aside li {
+    margin-bottom: 0.5rem;
   }
 
   h1 {
@@ -51,19 +68,4 @@ a:hover {
     font-size: 1rem;
     /* text-align: left; */
   }
-  /* .about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 10%;
-  } */
-
-  /* .about-text {
-    width: 100%;
-    height: 20%;
-    margin: 0 10%;
-    font-size: 1.5rem;
-    text-align: left;
-  } */
 }

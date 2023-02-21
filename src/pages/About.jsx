@@ -14,7 +14,10 @@ const About = () => {
         // style={{ paddingLeft: "17rem", paddingRight: "2rem" }}
         className="secondary-div col-md-8 col-sm-12 col-lg-6 d-flex flex-wrap justify-content-center align-items-center"
       >
-        <div className="text-center">
+        <div
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "2rem" }}
+          className="text-center"
+        >
           <h1
             style={{
               fontSize: "3rem",
@@ -114,7 +117,15 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
+      <div
+        style={{
+          backgroundColor: "rgba(0, 0, 0, 0.4)",
+          padding: "0.5rem",
+          margin: "5rem",
+          // width: "30%",
+        }}
+        className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center"
+      >
         <aside
           className="d-flex flex-wrap justify-content-center align-items-center"
           style={{
@@ -129,11 +140,12 @@ const About = () => {
               fontFamily: "CourierNew, monospace",
               fontWeight: "bold",
               marginBottom: "1rem",
+              marginRight: "2rem",
             }}
           >
             SKILLS
           </h2>
-          <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+          <ol type="1" style={{ listStyle: "none", paddingLeft: 0 }}>
             <li>Vue.js</li>
             <li>React.js</li>
             <li>Vuetify</li>
@@ -141,7 +153,7 @@ const About = () => {
             <li>Node.js</li>
             <li>MongoDB</li>
             <li>Firebase</li>
-          </ul>
+          </ol>
         </aside>
       </div>
     </div>
